@@ -1,0 +1,18 @@
+# Java
+*.class
+target/
+build/
+out/
+
+# IDEs
+.idea/
+.vscode/
+
+# Sistema operacional
+Thumbs.db
+desktop.ini
+
+# Temporarios
+*.tmp
+*.temp
+*.log
