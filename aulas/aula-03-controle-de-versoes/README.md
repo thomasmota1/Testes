@@ -1,7 +1,7 @@
 # Diário de Atividades - TMS 2025/2
 ## Aula 3 - Controle de Versões 
 
-**Data:** 11/05/2026 - 21/05/2026
+**Data:** 11/05/2026 - 20/05/2026
 
 ---
 
@@ -32,7 +32,7 @@ EOF
 git add README.md
 git commit -m "Adiciona README com orientações iniciais"
 ```
-![alt text](imagens\image.png)
+![alt text](imagens/image.png)
 
 ### Passo 2: Criar ramo de desenvolvimento
 
@@ -59,7 +59,7 @@ EOF
 git add README.md
 git commit -m "Complementa orientações no README (branch dev)"
 ```
-![alt text](image1.png)
+![alt text](imagens/image1.png)
 
 ### Passo 3: Alterar README no ramo principal
 
@@ -85,22 +85,22 @@ EOF
 git add README.md
 git commit -m "Adiciona notas importantes no README (branch main)"
 ```
-![alt text](image-1.png)
-![alt text](image-2.png)
+![alt text](imagens/image-1.png)
+![alt text](imagens/image-2.png)
 
 ### Passo 4: Verificar estado antes do merge
 
 ```bash
 git log --oneline --decorate --graph --all
 ```
-![alt text](image-3.png)
+![alt text](imagens/image-3.png)
 
 ### Passo 5: Tentar fazer merge
 
 ```bash
 git merge dev
 ```
-![alt text](image-4.png)
+![alt text](imagens/image-4.png)
 
 ### Passo 6: Verificar estado do conflito
 
@@ -109,7 +109,7 @@ git status
 
 ```
 
-![alt text](image-5.png)
+![alt text](imagens/image-5.png)
 
 ### Passo 7: Examinar o arquivo com conflito
 
@@ -117,7 +117,7 @@ git status
 cat README.md
 
 ```
-![alt text](image-6.png)
+![alt text](imagens/image-6.png)
 
 ### Passo 8: Resolver conflito manualmente
 
@@ -148,7 +148,7 @@ EOF
 git add README.md
 git commit -m "Resolve conflito: integra orientações de dev e main"
 ```
-![alt text](image-7.png)
+![alt text](imagens/image-7.png)
 
 
 ### Estado final do repositório
@@ -157,7 +157,7 @@ git commit -m "Resolve conflito: integra orientações de dev e main"
 git log --oneline --decorate --graph --all
 
 ```
-![alt text](image-8.png)
+![alt text](imagens/image-8.png)
 
 ---
 
@@ -201,8 +201,8 @@ cat file.txt
 # 8 Ver histórico
 git log --oneline --all --graph
 ```
-![alt text](image-9.png)
-![alt text](image-10.png)
+![alt text](imagens/image-9.png)
+![alt text](imagens/image-10.png)
 
 ### Conceitos praticados:
 - Criação de branches
@@ -210,12 +210,12 @@ git log --oneline --all --graph
 - Isolamento de alterações
 
 ---
-![alt text](image-13.png)
-![alt text](image-14.png)
-![alt text](image-15.png)
-![alt text](image-16.png)
-![alt text](image-17.png)
-![alt text](image-18.png)
+![alt text](imagens/image-13.png)
+![alt text](imagens/image-14.png)
+![alt text](imagens/image-15.png)
+![alt text](imagens/image-16.png)
+![alt text](imagens/image-17.png)
+![alt text](imagens/image-18.png)
 
 ## Atividade 2: Fast-Forward Merge
 
@@ -240,12 +240,12 @@ git merge feature
 # 4. Ver histórico após merge
 git log --oneline --all --graph
 ```
-![alt text](image-11.png)
-![alt text](image-12.png)
-![alt text](image-19.png)
-![alt text](image-20.png)
-![alt text](image-21.png)
-![alt text](image-22.png)
+![alt text](imagens/image-11.png)
+![alt text](imagens/image-12.png)
+![alt text](imagens/image-19.png)
+![alt text](imagens/image-20.png)
+![alt text](imagens/image-21.png)
+![alt text](imagens/image-22.png)
 
 ### Conceito de Fast-Forward:
 ```
@@ -290,10 +290,10 @@ git merge greeting
 git log --oneline --graph --all
 
 ```
-![alt text](image-23.png)
-![alt text](image-24.png)
-![alt text](image-25.png)
-![alt text](image-26.png)
+![alt text](imagens/image-23.png)
+![alt text](imagens/image-24.png)
+![alt text](imagens/image-25.png)
+![alt text](imagens/image-26.png)
 
 
 ---
@@ -317,8 +317,8 @@ git commit
 git log --oneline --graph
 
 ```
-![alt text](image-27.png)
-![alt text](image-28.png)
+![alt text](imagens/image-27.png)
+![alt text](imagens/image-28.png)
 
 
 ---
@@ -345,10 +345,10 @@ git status
 ```
 
 ---
-![alt text](image-29.png)
-![alt text](image-30.png)
-![alt text](image-31.png)
-![alt text](image-32.png)
+![alt text](imagens/image-29.png)
+![alt text](imagens/image-30.png)
+![alt text](imagens/image-31.png)
+![alt text](imagens/image-32.png)
 
 ## Atividade 6: Rebase
 
@@ -375,9 +375,9 @@ git merge uppercase
 git log --oneline --graph --all
 
 ```
-![alt text](image-33.png)
-![alt text](image-34.png)
-![alt text](image-35.png)
+![alt text](imagens/image-33.png)
+![alt text](imagens/image-34.png)
+![alt text](imagens/image-35.png)
 
 
 ---
@@ -412,4 +412,5 @@ git log --oneline --graph --all
 ## Referências
 
 - [Git Katas](https://github.com/eficode-academy/git-katas)
+
 
