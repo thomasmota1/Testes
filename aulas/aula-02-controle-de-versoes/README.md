@@ -97,14 +97,14 @@ git config --list
 git help config
 git commit --help
 ```
-![alt text](imagens\image.png)
+![alt text](./imagens/image.png)
 
 ### git commit --help :
 
-![alt text](imagens\image-1.png)
+![alt text](./imagens/image-1.png)
 
 ### git config --list:
-![alt text](imagens\image-2.png)
+![alt text](./imagens/image-2.png)
 
 
 ### Resultado:
@@ -134,7 +134,7 @@ git clone https://github.com/praqma-training/git-katas.git
 ls -la git-katas/
 # Resultado: pasta .git + arquivos do projeto
 ```
-![alt text](imagens\image-3.png)
+![alt text](./imagens/image-3.png)
 
 
 
@@ -155,7 +155,7 @@ touch Hello.java
 git add Hello.java
 git commit -m "Adiciona arquivo Hello.java vazio"
 ```
-![alt text](imagens\image-5.png)
+![alt text](./imagens/image-5.png)
 Arquivo criado: [Hello.java](laboratorio-git/hellogit/Hello.java)
 
 ```bash
@@ -174,7 +174,7 @@ git commit -m "Implementa Hello World em Java"
 ```
 
 
-![alt text](imagens\image-6.png)
+![alt text](./imagens/image-6.png)
 
 ---
 
@@ -212,11 +212,11 @@ git status
 git add .gitignore
 git commit -m "Adiciona .gitignore para ignorar arquivos temporários"
 ```
-![alt text](imagens\image-7.png)
+![alt text](./imagens/image-7.png)
 
-![alt text](imagens\image-8.png)
+![alt text](./imagens/image-8.png)
 
-![alt text](imagens\image-9.png)
+![alt text](./imagens/image-9.png)
 ---
 
 ## Atividade 5: Estados e Diferenças
@@ -236,7 +236,7 @@ public class Hello {
 EOF
 ```
 
-![alt text](imagens\image-10.png)
+![alt text](./imagens/image-10.png)
 
 ```bash
 # Verificar status
@@ -251,7 +251,7 @@ git diff Hello.java
 git add Hello.java
 git commit -m "Modifica Hello para exibir 10 mensagens"
 ```
-![alt text](imagens\image-11.png)
+![alt text](./imagens/image-11.png)
 
 
 ### 4-6. Criando, renomeando e removendo arquivo:
@@ -279,10 +279,10 @@ git commit -m "Renomeia hello.txt para hello.md (formato Markdown)"
 git rm hello.md
 git commit -m "Remove arquivo hello.md"
 ```
-![alt text](imagens\image-12.png)
-![alt text](imagens\image-13.png)
-![alt text](imagens\image-15.png)
-![alt text](imagens\image-14.png)
+![alt text](./imagens/image-12.png)
+![alt text](./imagens/image-13.png)
+![alt text](./imagens/image-15.png)
+![alt text](./imagens/image-14.png)
 
 ---
 
@@ -300,12 +300,12 @@ git log --pretty=oneline
 git log --pretty=format:"%h - %an, %ar : %s"
 git log --pretty=format:"%h %s" --graph
 ```
-![alt text](imagens\image-16.png)
-![alt text](imagens\image-18.png)
-![alt text](imagens\image-17.png)
-![alt text](imagens\image-19.png)
-![alt text](imagens\image-20.png)
-![alt text](imagens\image-21.png)
+![alt text](./imagens/image-16.png)
+![alt text](./imagens/image-18.png)
+![alt text](./imagens/image-17.png)
+![alt text](./imagens/image-19.png)
+![alt text](./imagens/image-20.png)
+![alt text](./imagens/image-21.png)
 
 
 
@@ -321,8 +321,8 @@ git log --pretty="%h - %s" --author=gitster --since="2008-10-01" --before="2008-
 # - --no-merges: exclui commits de merge
 # - -- t/: apenas alterações na pasta t/
 ```
-![alt text](imagens\image-22.png)
-![alt text](imagens\image-23.png)
+![alt text](./imagens/image-22.png)
+![alt text](./imagens/image-23.png)
 
 Ou seja, nesse repositório simplegit-progit, provavelmente não existe commit com autor `gitster` nem histórico envolvendo a `pasta t/`.
 
@@ -368,11 +368,11 @@ git commit --amend --no-edit
 git log -1
 ````
 
-![alt text](imagens\image-24.png)
-![alt text](imagens\image-25.png)
+![alt text](./imagens/image-24.png)
+![alt text](./imagens/image-25.png)
 
-![alt text](imagens\image-26.png)
-![alt text](imagens\image-27.png)
+![alt text](./imagens/image-26.png)
+![alt text](./imagens/image-27.png)
 
 ### 3-6. Removendo do Stage e restaurando:
 
@@ -433,8 +433,8 @@ git tag -a v0.9.0 -m "Versão beta" abc1234
 # - Anotadas: objeto completo com metadados (autor, data, mensagem)
 # - Leves: apenas ponteiro para um commit
 ```
-![alt text](imagens\image-28.png)
-![alt text](imagens\image-29.png)
+![alt text](./imagens/image-28.png)
+![alt text](./imagens/image-29.png)
 
 ---
 
