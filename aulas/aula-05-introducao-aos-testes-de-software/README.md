@@ -1,7 +1,7 @@
 # Diário de Atividades - TMS 2026/1
 ## Aula 5 - Introdução aos Testes de Software
 
-**Data:** 25/05/2026 - 
+**Data:** 25/05/2026 - 17/06/2026
 
 ---
 
