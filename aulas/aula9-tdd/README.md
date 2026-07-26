@@ -688,13 +688,50 @@ class PasswordValidatorTest {
 ```
 
 ---
-## Progresso da Primeira Etapa
 
-Nesta primeira etapa foram concluídas as atividades 1 a 4. As atividades restantes serão desenvolvidas em uma atualização posterior.
+## Atividade 5: Conversao Arabicos-Romanos
 
-## Resultado da Primeira Etapa
+Foi implementada a conversao nos dois sentidos, incluindo combinacoes subtrativas e rejeicao de valores invalidos.
 
-A validação final de todas as atividades ficará para a próxima etapa, após a implementação das atividades pendentes.
+Arquivos:
+
+- [`RomanNumerals.java`](src/main/java/com/tms/aula9/roman/RomanNumerals.java)
+- [`RomanNumeralsTest.java`](src/test/java/com/tms/aula9/roman/RomanNumeralsTest.java)
+
+## Atividade 6: Conversor de Unidades
+
+Foram implementadas conversoes de comprimento, peso e temperatura, com rejeicao de categorias incompativeis.
+
+Arquivos:
+
+- [`UnitConverter.java`](src/main/java/com/tms/aula9/units/UnitConverter.java)
+- [`UnitConverterTest.java`](src/test/java/com/tms/aula9/units/UnitConverterTest.java)
+
+## Atividade 7: Jogo da Velha
+
+Foi implementado um tabuleiro 3x3 com alternancia de jogadores, deteccao de vitoria e empate, alem da rejeicao de jogadas invalidas.
+
+Arquivos:
+
+- [`TicTacToe.java`](src/main/java/com/tms/aula9/tictactoe/TicTacToe.java)
+- [`TicTacToeTest.java`](src/test/java/com/tms/aula9/tictactoe/TicTacToeTest.java)
+
+## Atividade 8: TDD Katas
+
+Foram implementados tres katas para praticar o ciclo Red-Green-Refactor:
+
+- String Calculator — [`StringCalculator.java`](src/main/java/com/tms/aula9/katas/StringCalculator.java) e [`StringCalculatorTest.java`](src/test/java/com/tms/aula9/katas/StringCalculatorTest.java)
+- Prime Factors — [`PrimeFactors.java`](src/main/java/com/tms/aula9/katas/PrimeFactors.java) e [`PrimeFactorsTest.java`](src/test/java/com/tms/aula9/katas/PrimeFactorsTest.java)
+- Bowling Game — [`BowlingGame.java`](src/main/java/com/tms/aula9/katas/BowlingGame.java) e [`BowlingGameTest.java`](src/test/java/com/tms/aula9/katas/BowlingGameTest.java)
+
+---
+## Progresso Completo
+
+As oito atividades da aula foram implementadas, com testes automatizados correspondentes.
+
+## Resultado da Execucao
+
+A implementação contempla as oito atividades da aula e a suíte completa de testes Maven.
 
 ## Registro de Progresso
 
@@ -703,17 +740,18 @@ A validação final de todas as atividades ficará para a próxima etapa, após 
 - [x] Gerenciador de voos com TDD.
 - [x] Conversor de moedas com mock.
 - [x] Validador de senhas.
-- [ ] Conversor de unidades.
-- [ ] Jogo da velha.
-- [ ] Três TDD Katas.
+- [x] Conversão de números arábicos para romanos.
+- [x] Conversor de unidades.
+- [x] Jogo da velha.
+- [x] Três TDD Katas.
+- [x] Casos de borda adicionais e asserções agrupadas/descritivas.
+- [x] Relatório de cobertura JaCoCo gerado em `target/site/jacoco/index.html`.
+- [x] Registro dos ciclos Red-Green-Refactor em `TDD_CYCLES.md`.
+- [x] Execução completa da suíte Maven com sucesso.
 
 ### O que ficou pendente
 
-- Atividade 5: Conversão de números arábicos para romanos.
-- Atividade 6: Conversor de unidades.
-- Atividade 7: Jogo da velha.
-- Atividade 8: TDD Katas.
-- Execução e registro da suíte completa após a conclusão das atividades pendentes.
+- O histórico Git não foi recriado retroativamente; os ciclos estão documentados em `TDD_CYCLES.md`.
 
 ## Referencias
 
