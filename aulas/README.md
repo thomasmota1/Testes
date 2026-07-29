@@ -14,8 +14,7 @@ Aulas 1 a 9 do repositório.
 
 As atividades abaixo estão documentadas nos READMEs das respectivas aulas. A data/hora usa o commit que registra a entrega da
 aula; quando várias atividades foram entregues juntas, o mesmo commit aparece
-em suas linhas. Além disso, como as atividades de cada aula estão reunidas no mesmo arquivo .md, a tabela apresenta, abaixo do link do commit, um segundo link com uma
-  âncora que direciona diretamente para o ponto exato onde cada atividade está registrada no documento.
+em suas linhas. Além disso, como as atividades de cada aula estão reunidas no mesmo arquivo .md, a tabela apresenta, abaixo do link do commit, um segundo link com que direciona diretamente para cada atividade está registrada no documento.
 
 ## Tabela geral de autoavaliação
 
@@ -81,3 +80,4 @@ em suas linhas. Além disso, como as atividades de cada aula estão reunidas no 
 | Aula 9 | 6. Conversor de unidades | 5 | Implementei conversões e rejeitei categorias incompatíveis. | 26/07/2026 16:41 | [Commit](https://github.com/thomasmota1/Testes/commit/70151331069845d4c0c9b00170cae1b04a190814)<br>[Atividade](https://github.com/thomasmota1/Testes/blob/main/aulas/aula9-tdd/README.md#L701) |
 | Aula 9 | 7. Jogo da velha | 5 | Implementei alternância, vitória, empate e jogadas inválidas. | 26/07/2026 16:41 | [Commit](https://github.com/thomasmota1/Testes/commit/70151331069845d4c0c9b00170cae1b04a190814)<br>[Atividade](https://github.com/thomasmota1/Testes/blob/main/aulas/aula9-tdd/README.md#L710) |
 | Aula 9 | 8. TDD Katas | 5 | Implementei String Calculator, Prime Factors e Bowling Game com testes. | 26/07/2026 16:41 | [Commit](https://github.com/thomasmota1/Testes/commit/70151331069845d4c0c9b00170cae1b04a190814)<br>[Atividade](https://github.com/thomasmota1/Testes/blob/main/aulas/aula9-tdd/README.md#L719) |
+| Aula 10 | Refatoração | 0 | O conteúdo foi disponibilizado muito tardiamente, durante um período particularmente caótico. Em razão disso, não foi possível realizar nenhuma das tarefas propostas. | — | — |
